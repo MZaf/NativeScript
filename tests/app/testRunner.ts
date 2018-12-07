@@ -58,6 +58,9 @@ allTests["APPLICATION-SETTINGS"] = appSettingsTests;
 import * as applicationTests from "./application/application-tests";
 allTests["APPLICATION"] = applicationTests;
 
+import * as livesyncTests from "./ls/ls-tests";
+allTests["LIVESYNC"] = livesyncTests;
+
 import * as imageSourceTests from "./image-source/image-source-tests";
 allTests["IMAGE-SOURCE"] = imageSourceTests;
 
